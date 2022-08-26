@@ -1,2 +1,2 @@
-# tag-me
-Casual tag me game with bonuses and strong AI's.
+# Tagme
+Casual tagme game with bonuses and strong customizable AI's.
