@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8708c7da8d32ffb40a406ab7dcc6bf09, type: 3}
+  m_Name: Yellow
+  m_EditorClassIdentifier: 
+  skin: {fileID: 21300000, guid: 4c2afa9585dcc4eab8d1738dcf358c5f, type: 3}
+  fixedUpdateCount:
+    minValue: 6
+    maxValue: 10
+  predictionRange:
+    minValue: 8
+    maxValue: 13.937824
+  smoothingScale: 0.5
+  overcrowdDistance: 0
+  overcrowdCount: 2
+  stopChangingTargetDistance:
+    minValue: 30
+    maxValue: 70
+  interceptionAngle:
+    minValue: 0
+    maxValue: 40
+  interceptionDelay:
+    minValue: 0.2999727
+    maxValue: 0.54731363
+  becomeTaggerDelay:
+    minValue: 0
+    maxValue: 0.2
+  raycastAccuracy: 180
+  jerkAvoidanceFactor: 0.2
+  switchStageTime: 0
+  safeSleepChance:
+    minValue: 0.5999999
+    maxValue: 1
+  criticalDistance: 12
+  straightDangerousDistance: 18
+  sharpDangerousDistance: 65
+  attentionDistance: 90
+  decisionCooldown:
+    minValue: 0.5949277
+    maxValue: 1
+  sharpRunAngles:
+    minValue: 35
+    maxValue: 120
+  cornerDistanceToTagger: 30
+  cornerDistanceToWalls: 42
+  bypassChance: 0.7
+  bypassDistance: 12
+  bypassAngles:
+    minValue: 20
+    maxValue: 100
+  bypassDelay:
+    minValue: 0
+    maxValue: 0.4
+  reversalCooldown:
+    minValue: 0.40946355
+    maxValue: 0.8549223
+  reversalWindowWidth: 8
+  reversalMaxAngleToTarget: 150
+  reversalStartError: 0.1
+  reversalAngleError: 45
+  unexpectedStopChance: 0
+  unexpectedStopDuration:
+    minValue: 0
+    maxValue: 0
+  messingMoveDirectionChance: 0
+  messingMoveAngle:
+    minValue: 0
+    maxValue: 0
+  chanceOfUsingRandomBonus: 0
+  boostDistance4tag: 35
+  growthDistance4tag: 15
+  dashDistance4tag: 35
+  boostDistance4run: 20
+  dashDistance4run: 20
+  lastChanceInvisibilityTime: 5

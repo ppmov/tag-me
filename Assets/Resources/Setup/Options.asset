@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e537a575c4ffbea45b25dcbd97e5fe23, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  playerSkin: {fileID: 21300000, guid: 21563c3853c34444eb4c14d1ca2dc162, type: 3}
+  isBonusesEnabled: 1
+  hasAIOnly: 0
+  unitSize: 0.8
+  moveSpeed: 30
+  flickeringTime: 3
+  eliminatedFx: {fileID: 0}
+  abilityDuration: 3
+  abilityCooldown: 5
+  boostSpeed: 30
+  boostFx: {fileID: 0}
+  growthScale: 1.5
+  growthFx: {fileID: 0}
+  dashForce: 200
+  dashFinishForce: 100
+  dashFx: {fileID: 0}
+  invisibleMaterial: {fileID: 10758, guid: 0000000000000000f000000000000000, type: 0}
+  invisibleFx: {fileID: 0}
+  ais:
+  - {fileID: 11400000, guid: 95dbaa2e5f53b764d843f0dbd6c22370, type: 2}
